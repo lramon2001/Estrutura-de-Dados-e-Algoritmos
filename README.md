@@ -1,7 +1,7 @@
 # Estrutura-de-Dados-e-Algoritmos
 
-## Menu / Ementa
-### Vetores
+## Ementa
+### Vetores / Arrays
 - Entendendo melhor o que são arrays;
 - Lendo dados a partir de arrays;
 ### Algoritmos de ordenção
@@ -13,6 +13,13 @@
 - Como mensurar a eficiência de um algoritmo?
 - Como prever o comportamento de um algoritmo com a evolução do tempo e da massa de dados?
 - Entendendo a notação de Bachmann–Landau (O-grande).
+
+## Vetores
+```
+O vetor é uma estrutura de dados indexada, que pode armazenar uma determinada quantidade de valores do mesmo tipo. 
+Os dados armazenados em um vetor são chamados de itens do vetor. Para localizar a posição de um item em um vetor 
+usamos um número inteiro denominado índice do vetor.
+```
 ## Selection Sort / Ordenação por Seleção
 ```
 A ordenação  por seleção  (do inglês, selection sort) é  um algoritmo de ordenação baseado em se passar sempre
