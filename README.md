@@ -1,25 +1,5 @@
 # Estrutura-de-Dados-e-Algoritmos
 
-## Ementa
-### Vetores / Arrays
-- Entendendo melhor o que são arrays;
-- Lendo dados a partir de arrays;
-### Algoritmos de ordenção
-- Algoritmos de ordenação: entendendo e implementando o selection sort.
-### Algoritmos de Busca
-- Algoritmos de busca: entendendo e implementando a busca linear;
-- Algoritmos de busca: entendendo e implementando a busca binária.
-### Análise Assintótica
-- Como mensurar a eficiência de um algoritmo?
-- Como prever o comportamento de um algoritmo com a evolução do tempo e da massa de dados?
-- Entendendo a notação de Bachmann–Landau (O-grande).
-
-## Vetores
-```
-O vetor é uma estrutura de dados indexada, que pode armazenar uma determinada quantidade de valores do mesmo tipo. 
-Os dados armazenados em um vetor são chamados de itens do vetor. Para localizar a posição de um item em um vetor 
-usamos um número inteiro denominado índice do vetor.
-```
 
 ## Análise Assintótica
 ```
@@ -56,5 +36,108 @@ do meio vier depois da chave, a busca continua na metade anterior do vetor.
 ```
 ![Binary Search](https://github.com/lramon2001/Algoritmos/blob/main/binary-search.gif)
 
+## Arrays / Vetores
+![imagem](https://github.com/lramon2001/EstruturaDeDados1/blob/main/arrayok.png)
+```
+Um array é uma estrutura de dados que armazena uma coleção de elementos de tal forma que cada um dos elementos possa ser 
+identificado por, pelo menos, um índice ou uma chave. Essa estrutura de dados também é conhecida como variável indexada,
+vetor (para arranjos unidimensionais) e matriz (para arranjos bidimensionais). Os arranjos mantêm uma série de elementos 
+de dados, geralmente do mesmo tamanho e tipo de dados. Elementos individuais são acessados por sua posição no arranjo. A 
+posição é dada por um índice, também chamado de subscrição. O índice geralmente utiliza uma sequência de números inteiros,
+mas o índice pode ter qualquer valor ordinal. Os arranjos podem ser multidimensionais, significando que eles são indexados
+por um número fixo de números inteiros, por exemplo, por uma sequência (ou sucessão) finita de quatro números inteiros.
+Geralmente, arranjos unidimensionais e bidimensionais são os mais comuns. Os arrays podem ser considerados como as 
+estruturas de dados mais simples. Têm a vantagem de que os seus elementos são acessíveis de forma rápida mas têm uma 
+notável limitação: são de tamanho fixo, mas podem ser incrementados ou diminuídos com determinados algoritmos, geralmente
+envolvendo a cópia de elementos de um arranjo para outro e reiniciar o original com a nova dimensão. 
+```
+## Linked Lists / Listas Ligadas
+![gif](https://github.com/lramon2001/EstruturaDeDados1/blob/main/listasLigadas.gif)
+```
+Uma lista encadeada ou lista ligada é uma estrutura de dados linear e dinâmica. Ela é composta por várias células que estão
+interligadas através de ponteiros, ou seja, cada célula possui um ponteiro que aponta para o endereço de memória da próxima 
+célula. Desse modo, as células da estrutura não precisam estar em posições contíguas da memória. Isso faz com que a estrutura
+se torne dinâmica, pois há qualquer momento, é possível alocar uma nova célula e mudar os ponteiros das células já 
+existentes, de modo que a nova célula seja inserida na estrutura com êxito, na posição desejada pelo programador.
+```
+## Doubly Linked Lists / Listas Duplamente Ligada
+![gif](https://github.com/lramon2001/EstruturaDeDados1/blob/main/listaDuplamenteLigadas.gif)
+```
+Em ciência da computação, uma lista duplamente ligada (ou lista duplamente encadeada) é uma estrutura de dados ligada que 
+consiste de um conjunto de registros sequencialmente ligados chamados de nós e é uma extensão da lista simplesmente ligada
+(ou lista simplesmente encadeada). Cada nó contem dois campos, chamados de links ou enlaces, que são referências para o nó
+anterior e para o nó posterior na sequência de nós. Os links anteriores e posteriores dos nós inicial e final, respectivamente,
+apontam para algum tipo de terminador, tipicamente um nó sentinela ou nulo, para facilitar o percorrimento da lista. Se houver 
+apenas um nó sentinela, a lista será vinculada circularmente através do nó sentinela. Ele pode ser conceituado como duas listas
+unicamente vinculadas formadas a partir dos mesmos itens de dados, mas em ordens sequenciais opostas.
+
+```
+## Stacks / Pilhas
+![gif](https://github.com/lramon2001/EstruturaDeDados1/blob/main/stack.gif)
+```
+Pilha ou stack é um tipo especial de lista linear em que todas as operações de inserção e remoção são realizadas pela mesma 
+extremidade chamada topo. Os elementos são removidos na ordem do programa inversa daquela em que foram inseridos de modo que
+o último elemento que entra é sempre o primeiro ser executado , por isto este tipo de estrutura é chamada LIFO (Last In - First Out)
+ou FILO (First In - Last Out).
+"O exemplo mais prático que costuma utilizar-se para entender o processo de pilha é como uma pilha de livros ou pilha de pratos, no qual
+ao se colocar diversos elementos uns sobre os outros, se quisermos pegar o livro mais abaixo deveremos tirar todos os livros que estiverem 
+sobre ele."
+
+Uma pilha geralmente suporta 4 operações básicas:
+-TOP: acessa-se o elemento posicionado no topo da pilha;
+-PUSH: insere um novo elemento no topo da pilha;
+-POP: remove o elemento do topo da pilha.
+-PULL:altera o elemento posicionado no topo da pilha;
+```
+## Queues / Filas
+![gif](https://github.com/lramon2001/EstruturaDeDados1/blob/main/fila.gif)
+```
+A Fila é uma estrutura de dados bastante usada em computação. Na estrutura de fila, os acessos aos elementos também seguem uma regra. 
+O que diferencia a fila da pilha é a ordem de saída dos elementos: enquanto na pilha “o último que entra é o primeiro que sai”, na fila 
+“o primeiro que entra é o primeiro que sai” (a sigla FIFO – first in, first out – é usada para descrever essa estratégia).
+A ideia fundamental da fila é que só podemos inserir um novo elemento no final da fila e só podemos retirar o elemento do início.
+A estrutura de fila é uma analogia natural com o conceito de fila que usamos no nosso dia a dia: quem primeiro entra numa fila é o primeiro
+a ser atendido (a sair da fila). Um exemplo de utilização em computação é a implementação de uma fila de impressão, fila de atendimento, etc. 
+Se uma impressora é compartilhada por várias máquinas, deve-se adotar uma estratégia para determinar que documento será impresso primeiro. 
+A estratégia mais simples é tratar todas as requisições com a mesma prioridade e imprimir os documentos na ordem em que foram submetidos – 
+o primeiro submetido é o primeiro a ser impresso. 
+Para implementar uma fila, devemos ser capazes de inserir novos elementos em uma extremidade, o fim, e retirar elementos da outra extremidade,
+o início. Ou seja, sempre inserimos novos elementos no fim da fila e quando removemos u um elemento ele é retirado do início da fila.
+
+```
+## Sets / Conjuntos
+```
+Sets são estruturas de dados que agem como se fossem listas ligadas ou listas duplamente ligadas, porém elas possuem uma característica
+importante: elas não permitem elementos duplicados.Quando os sets recebem um elemento duplicado para ser inserido, o conteúdo do set 
+não é modificado e nenhuma exceção é lançada.Há uma variedade de estratégias para verificação de duplicidade dos itens em um set. A 
+abordagem pode ser mais simples, como em uma busca linear (algoritmo mais dispendioso) até uma verificação baseada no hash code dos 
+objetos.
+```
+## HashTables / Tabelas de Espalhamento
+![gif](https://github.com/lramon2001/EstruturaDeDados2/blob/main/hashtable.gif)
+```
+Em ciência da computação, uma tabela de dispersão (também conhecida por tabela de espalhamento ou tabela hash, do inglês hash) é uma 
+estrutura de dados especial, que associa chaves de pesquisa a valores. Seu objetivo é, a partir de uma chave simples, fazer uma busca
+rápida e obter o valor desejado. É algumas vezes traduzida como tabela de escrutínio.
+```
+## Maps / Mapas
+![gif](https://github.com/lramon2001/EstruturaDeDados2/blob/main/map.gif)
+```
+Os mapas são estruturas de dados que são chamadas de estruturas associativas. Estas estruturas possuem esse nome pois permitem associar
+um valor de acesso a um determinado elemento.
+Você pode imaginar os mapas como sendo um dicionário. Se você quiser saber o significado de uma palavra, você procura a palavra desejada 
+no dicionário. Após localizar a palavra, você conseguirá o acesso ao seu significado.
+Veja que no exemplo acima temos a demonstração clássica de uma estrutura associativa no estilo de um mapa. Você tem uma chave, que é a 
+palavra desejada, e um valor associado, no caso, o significado da palavra. Perceba também o fato de que uma palavra não aparece de maneira 
+repetida em um dicionário. Essa mesma regra vale para os mapas: as chaves em um mapa não podem ser duplicadas.
+```
+## Binary Tree / Árvore Binária
+![gif](https://github.com/lramon2001/EstruturaDeDados2/blob/main/binaryTree.gif)
+
+```
+Árvores binárias são estruturas de dados hierárquicas que armazenam os elementos de maneira classificada.Árvores binárias são constituídas
+por um enlace de outra estrutura: os nós. Os nós são caracterizados por duas informações: o valor, que corresponde ao elemento a ser 
+armazenado, e o peso. O peso do nó é utilizado para categorizar e direcionar o nó dentro da árvore binária.
+```
 
 [MIT License](https://github.com/lramon2001/Algoritmos/blob/main/LICENSE) © [Lucas Ramon](https://github.com/lramon2001)
