@@ -16,10 +16,12 @@ menor  valor para  a segunda  posição, e  assim é feito  sucessivamente com o
 ```
 ![Selection Sort](https://github.com/lramon2001/Algoritmos/blob/main/Selection-Sort-Animation.gif)
 ## Merge Sort / Ordenação por Junção
-``` Merge Sort é um algoritmo eficiente de ordenação por divisão e conquista. Se nossa missão é ordenar um array comparando seus elementos, do ponto de vista assintótico, n∗logn é o nosso limite inferior. Ou seja, nenhum algoritmo de ordenação por comparação é mais veloz do que n∗logn. Formalmente, todos são Ω(n∗logn).
-
-No caso do Merge Sort, uma característica importante é que sua eficiência é n∗logn para o melhor, pior e para o caso médio. Ou seja, ele não é somente Ω(n∗logn), mas é Θ(n∗logn). Isso nos dá uma garantia de que, independente da disposição dos dados em um array, a ordenação será eficiente.
-
+``` Merge Sort é um algoritmo eficiente de ordenação por divisão e conquista. Se nossa missão é ordenar um array
+comparando seus elementos, do ponto de vista assintótico, n∗logn é o nosso limite inferior. Ou seja, nenhum algoritmo
+de ordenação por comparação é mais veloz do que n∗logn. Formalmente, todos são Ω(n∗logn).
+No caso do Merge Sort, uma característica importante é que sua eficiência é n∗logn para o melhor, pior e para o caso médio.
+Ou seja, ele não é somente Ω(n∗logn), mas é Θ(n∗logn). Isso nos dá uma garantia de que, independente da disposição dos dados
+em um array, a ordenação será eficiente.
 O funcionamento do Merge Sort baseia-se em uma rotina fundamental cujo nome é merge. Primeiro vamos entender como ele funciona e depois vamos ver como sucessivas execuções de merge ordena um array.
 ```
 
