@@ -20,6 +20,13 @@ O vetor é uma estrutura de dados indexada, que pode armazenar uma determinada q
 Os dados armazenados em um vetor são chamados de itens do vetor. Para localizar a posição de um item em um vetor 
 usamos um número inteiro denominado índice do vetor.
 ```
+
+## Análise Assintótica
+```
+Análise assintótica leva em consideração grandes entradas para tornar relevante apenas a ordem de crescimento das 
+funções de tempo de execução. Na prática, ignoramos as constantes e os expoentes de menor magnitude. Usamos análise
+assintótica para simplificar a comparação entre funções
+```
 ## Selection Sort / Ordenação por Seleção
 ```
 A ordenação  por seleção  (do inglês, selection sort) é  um algoritmo de ordenação baseado em se passar sempre
