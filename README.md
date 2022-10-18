@@ -1,19 +1,18 @@
 # Estrutura-de-Dados-e-Algoritmos
-Estrutura de Dados e Algoritmos -  Repositório criado para explicar de forma amigável estruturas de dados e algoritmos 
 
 ## Menu / Ementa
-### Arrays / Vetores
-- Understanding Arrays Better / Entendendo melhor o que são arrays;
-- Reading data from arrays / Lendo dados a partir de arrays;
-###  Sorting algorithms / Algoritmos de ordenção
-- Understanding and implementing selection sort / Algoritmos de ordenação: entendendo e implementando o selection sort.
-### Search algoritms / Algoritmos de Busca
-- Understanding and implementing linear search / Algoritmos de busca: entendendo e implementando a busca linear;
-- Understanding and implementing binary search / Algoritmos de busca: entendendo e implementando a busca binária.
-### Asymptotic Analysis / Análise Assintótica
-- How to measure the efficiency of an algorithm / Como mensurar a eficiência de um algoritmo?
-- How to predict the behavior of an algorithm with the evolution of time and data mass? / Como prever o comportamento de um algoritmo com a evolução do tempo e da massa de dados?
-- Understanding Bachmann – Landau (Big-O) notation / Entendendo a notação de Bachmann–Landau (O-grande).
+### Vetores
+- Entendendo melhor o que são arrays;
+- Lendo dados a partir de arrays;
+### Algoritmos de ordenção
+- Algoritmos de ordenação: entendendo e implementando o selection sort.
+### Algoritmos de Busca
+- Algoritmos de busca: entendendo e implementando a busca linear;
+- Algoritmos de busca: entendendo e implementando a busca binária.
+### Análise Assintótica
+- Como mensurar a eficiência de um algoritmo?
+- Como prever o comportamento de um algoritmo com a evolução do tempo e da massa de dados?
+- Entendendo a notação de Bachmann–Landau (O-grande).
 ## Selection Sort / Ordenação por Seleção
 ```
 A ordenação  por seleção  (do inglês, selection sort) é  um algoritmo de ordenação baseado em se passar sempre
@@ -42,11 +41,6 @@ do meio vier depois da chave, a busca continua na metade anterior do vetor.
 
 ```
 ![Binary Search](https://github.com/lramon2001/Algoritmos/blob/main/binary-search.gif)
-## History / História
-- See [Commit changes](https://github.com/lramon2001/Algoritmos/pulse) for details.
 
-> **Consulte [Mudanças de commit](https://github.com/lramon2001/Algoritmos/pulse) para obter detalhes.**
-
-## License / Licença
 
 [MIT License](https://github.com/lramon2001/Algoritmos/blob/main/LICENSE) © [Lucas Ramon](https://github.com/lramon2001)
