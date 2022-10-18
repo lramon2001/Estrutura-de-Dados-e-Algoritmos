@@ -159,5 +159,9 @@ repetida em um dicionário. Essa mesma regra vale para os mapas: as chaves em um
 por um enlace de outra estrutura: os nós. Os nós são caracterizados por duas informações: o valor, que corresponde ao elemento a ser 
 armazenado, e o peso. O peso do nó é utilizado para categorizar e direcionar o nó dentro da árvore binária.
 ```
-
+## Grafos
+```
+Resultado de imagem para grafo
+Um Grafo é uma estrutura de dados formada por um conjunto de não vazio de vértices (ou nós) e por um conjunto de arestas (ou arcos), ligando estes vértices. Seja G um grafo onde V é o conjunto dos vértices e A é o conjunto das arestas. Afirmar que A contém a aresta v-w, é o mesmo que afirmar que A contém a aresta w-v.
+```
 [MIT License](https://github.com/lramon2001/Algoritmos/blob/main/LICENSE) © [Lucas Ramon](https://github.com/lramon2001)
