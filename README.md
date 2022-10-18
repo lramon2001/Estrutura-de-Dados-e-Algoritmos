@@ -24,7 +24,12 @@ Ou seja, ele não é somente Ω(n∗logn), mas é Θ(n∗logn). Isso nos dá uma
 em um array, a ordenação será eficiente.
 O funcionamento do Merge Sort baseia-se em uma rotina fundamental cujo nome é merge. Primeiro vamos entender como ele funciona e depois vamos ver como sucessivas execuções de merge ordena um array.
 ```
+### Quick Sort / Ordenação rápida
 
+```
+Quick Sort é um algoritmo eficiente de ordenação por divisão e conquista. Apesar de ser da mesma classe de complexidade do Merge Sort e do Heap Sort, o Quick Sort é na prática o mais veloz deles, pois suas constantes são menores. Contudo, é importante destacar de antemão que, em seu pior caso, o Quick Sort é O(n2), enquanto que o Merge Sort e o Heap Sort garantem n∗logn para todos os casos. A boa notícia é que há estratégias simples com as quais podemos minimizar as chances de ocorrência do pior caso.
+O funcionamento do Quick Sort baseia-se em uma rotina fundamental cujo nome é particionamento. Particionar significa escolher um número qualquer presente no array, chamado de pivot, e colocá-lo em uma posição tal que todos os elementos à esquerda são menores ou iguais e todos os elementos à direita são maiores.
+```
 ## Linear Search / Busca Linear
 ```
 Na área de informática, ou Ciência da Computação, costuma-se usar o termo busca linear (ou busca sequencial)
